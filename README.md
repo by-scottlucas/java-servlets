@@ -1,2 +1,3 @@
-# servlets-java
-Exercício realizado para aprendizado sobre Servlets em Java
+# Java Servlets
+
+Exercício realizado para fins de aprendizado sobre Servlets em Java
