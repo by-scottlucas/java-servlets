@@ -15,24 +15,28 @@
 
     <main class="container">
 
+        <div class="btn2">
+            <a href="index.html">Voltar</a>
+        </div>
+
         <section class="layout">
 
+            <img src="xtudo.jpg" alt="" class="xtudo">
 
-
-
-            <h1 class="title">X-Tudo</h1>
-
+            <h1 class="title">${nmXtudo}</h1>
+            
             <p class="desc">
-                90 g hambúrguer, queijo e salada. Pão de hambúrguer.
+                Pão, 1 hambúrguer, queijo, presunto, alface, tomate, ovo, bacon, milho, ervilha, batata palha, maionese e catchup.
             </p>
 
             <p class="desc">
-                Temperatura: ${sanduiche.getNome()}
+                Temperatura: <strong>${tmpXtudo}</strong>
             </p>
 
             <div class="btn">
-                <p>R$ 20,00</p>
+                <p>R$ ${prcXtudo}</p>
             </div>
+            
         </section>
 
     </main>

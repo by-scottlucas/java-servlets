@@ -19,14 +19,14 @@
     align-items: center;
     justify-content: center;
     width: 340px;
-    height: 400px;
+    height: 426px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .9);
     background-color: whitesmoke;
 }
 
-.xsalada {
+.xtudo {
     border-radius: 4px;
     width: 95%;
     margin-bottom: 10px;
@@ -43,6 +43,7 @@
     font-size: 1rem;
     font-family: Calibri;
     text-align: justify;
+    margin-bottom: 12px;
 }
 
 .btn {
@@ -58,10 +59,25 @@
     font-size: 2.8rem;
     height: 65px;
     width: 320px;
-    margin-top: 10px;
     background-color: #ec3030;
 }
 
 .btn:hover {
     background-color: #be1f1f;
+}
+
+.btn2 a{
+    font-family: Calibri;
+    text-decoration: none;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ec3030;
+    padding: 6px;
+    margin-bottom: 10px;
 }

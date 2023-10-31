@@ -15,22 +15,28 @@
 
     <main class="container">
 
+        <div class="btn2">
+            <a href="index.html">Voltar</a>
+        </div>
+
         <section class="layout">
 
-            <h1 class="title">${nome}</h1>
-            
+            <img src="xsalada.webp" alt="" class="xsalada">
+
+            <h1 class="title">${nmXsalada}</h1>
+
             <p class="desc">
-                90 g hambúrguer, queijo e salada. Pão de hambúrguer.
+                Pão, 1 hambúrguer, presunto, queijo, alface, tomate, milho, ervilha, batata palha, maionese e catchup.
             </p>
 
             <p class="desc">
-                Temperatura: ${temperatura}
+                Temperatura: <strong>${tmpXsalada}</strong>
             </p>
 
             <div class="btn">
-                <p>R$ ${preco}</p>
+                <p>R$ ${prcXsalada}</p>
             </div>
-            
+
         </section>
 
     </main>

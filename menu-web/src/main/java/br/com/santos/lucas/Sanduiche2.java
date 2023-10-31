@@ -6,8 +6,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import java.io.IOException;
 
-@WebServlet(name = "Sanduiche", urlPatterns = {"/xsalada"})
-public class Sanduiche extends HttpServlet {
+@WebServlet(name = "Sanduiche2", urlPatterns = {"/xtudo"})
+public class Sanduiche2 extends HttpServlet {
     private String nome;
     private String temperatura;
     private double preco;
@@ -40,18 +40,18 @@ public class Sanduiche extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        Sanduiche sanduiche1 = new Sanduiche();
+        Sanduiche sanduiche2 = new Sanduiche();
 
-        sanduiche1.setNome("X-Salada");
-        sanduiche1.setTemperatura("Quente");
-        sanduiche1.setPreco(10.00);
+        sanduiche2.setNome("X-Tudo");
+        sanduiche2.setTemperatura("Quente");
+        sanduiche2.setPreco(30.00);
 
 
-        request.setAttribute("nmXsalada", sanduiche1.getNome());
-        request.setAttribute("tmpXsalada", sanduiche1.getTemperatura());
-        request.setAttribute("prcXsalada", sanduiche1.getPreco());
+        request.setAttribute("nmXtudo", sanduiche2.getNome());
+        request.setAttribute("tmpXtudo", sanduiche2.getTemperatura());
+        request.setAttribute("prcXtudo", sanduiche2.getPreco());
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/xsalada.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/xtudo.jsp");
         dispatcher.forward(request, response);
     }
 }
