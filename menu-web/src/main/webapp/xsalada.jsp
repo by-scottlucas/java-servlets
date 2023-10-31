@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/menu-web/src/main/webapp/xsalada-css/style.css">
+    <link rel="stylesheet" href="xsalada.css">
     <title>X-Salada</title>
 </head>
 
@@ -17,19 +17,20 @@
 
         <section class="layout">
 
-            <img src="/menu-web/src/main/webapp/xsalada-css/assets/xsalada.jpg" alt="image" class="xsalada">
-
-            <h1 class="title">${nmxsalada}</h1>
+            <h1 class="title">${nome}</h1>
+            
+            <p class="desc">
+                90 g hambúrguer, queijo e salada. Pão de hambúrguer.
+            </p>
 
             <p class="desc">
-                90 g hambúrguer, queijo e salada. Pão de hambúrguer
-                A IMAGEM DESTE PRODUTO É MERAMENTE ILUSTRATIVA.
+                Temperatura: ${temperatura}
             </p>
-            <p class="desc">${tmpxsalada}</p>
 
             <div class="btn">
-                <p>${prcxsalada}</p>
+                <p>R$ ${preco}</p>
             </div>
+            
         </section>
 
     </main>
