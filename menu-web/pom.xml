@@ -82,7 +82,7 @@
         <configuration>
           <scanIntervalSeconds>10</scanIntervalSeconds>
           <webApp>
-            <contextPath>/menu-web</contextPath>
+            <contextPath>/</contextPath>
           </webApp>
         </configuration>
       </plugin>
